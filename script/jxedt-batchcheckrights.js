@@ -1,7 +1,11 @@
 /*======================================
 # 驾校一点通01
 # @color233 2022.9.9
-^https?:\/\/vipapi\.(jxedt|ksedt)\.com\/store\/checkRights url script-response-body https://raw.githubusercontent.com/xilemon/quanx/main/script/jxedt-batchcheckrights.js
+# url:
+# https://raw.githubusercontent.com/xilemon/quanx/main/script/jxedt-batchcheckrights.js
+
+# 重写引用：
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/jiaxiaoedt_01.txt
  ======================================*/
 
 let color233 = JSON.parse($response.body);
