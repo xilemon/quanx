@@ -4,8 +4,8 @@
 # 引用时打开插入资源
 # https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/ad/ad_rewrite_00.txt
 #=======================================#
-hostname = api.coolapk.com, image.coolapk.com, s.click.taobao.com, union.click.jd.com, www.xiaohongshu.com, bootrealtime.uve.weibo.com, api.weibo.cn
-#=======================================#
+
+
 #=======================================#
 # 酷安 01
 #=======================================#
@@ -45,4 +45,8 @@ https?:\/\/union\.click\.jd\.com/jda? url reject-dict
 # 屏蔽推荐和关注中穿插的广告
 ^https:\/\/bootrealtime\.uve\.weibo\.com\/v2\/ad\/ url reject-dict
 ^https:\/\/api\.weibo\.cn\/2\/ad\/ url reject-dict
+#=======================================#
+
+#=======================================#
+hostname = api.coolapk.com, image.coolapk.com, s.click.taobao.com, union.click.jd.com, www.xiaohongshu.com, bootrealtime.uve.weibo.com, api.weibo.cn
 #=======================================#

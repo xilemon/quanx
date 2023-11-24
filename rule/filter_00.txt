@@ -1,0 +1,12 @@
+#=======================================#
+# 分流规则 00
+# @color233 2023.11.11
+# 引用时打开插入资源
+# https://raw.githubusercontent.com/xilemon/quanx/main/rule/filter_00.txt
+#=======================================#
+
+# 屏蔽抖音商店
+host-suffix, ecombdimg.com, reject
+host-suffix, ecombdapi.com, reject
+
+# 

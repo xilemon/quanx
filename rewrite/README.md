@@ -14,8 +14,7 @@
 |3|京东|[跳转](https://github.com/xilemon/quanx/blob/main/rewrite/ad/jingdong_03.txt)|
 |4|小红书|[跳转](https://github.com/xilemon/quanx/blob/main/rewrite/ad/xiaohongshu_04.txt)|
 |5|微博轻享版|[跳转](https://github.com/xilemon/quanx/blob/main/rewrite/ad/weiboqxb_05.txt)|
-
----
+|-| | |
 
 ## 3 功能性重写-目录
 
@@ -23,3 +22,4 @@
 |:----:|:----|:----:|
 |0|合集|[跳转](https://github.com/xilemon/quanx/blob/main/rewrite/js/js_rewrite_00.txt)|
 |1|驾校一点通|[跳转](https://github.com/xilemon/quanx/blob/main/rewrite/js/jiaxiaoedt_01.txt)|
+|-| | |
