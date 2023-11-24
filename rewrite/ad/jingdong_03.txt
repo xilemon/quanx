@@ -1,0 +1,12 @@
+#=======================================#
+# 京东 03
+# @color233 2023.11.11
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/ad/jingdong_03.txt
+#=======================================#
+
+hostname = union.click.jd.com
+
+# 屏蔽部分链接跳转到京东
+https?:\/\/union\.click\.jd\.com/jda? url reject-dict
+
+#=======================================#

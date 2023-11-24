@@ -1,0 +1,48 @@
+#=======================================#
+# 广告屏蔽合集 00
+# @color233 2023.11.11
+# 引用时打开插入资源
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/ad/ad_rewrite_00.txt
+#=======================================#
+hostname = api.coolapk.com, image.coolapk.com, s.click.taobao.com, union.click.jd.com, www.xiaohongshu.com, bootrealtime.uve.weibo.com, api.weibo.cn
+#=======================================#
+#=======================================#
+# 酷安 01
+#=======================================#
+# 屏蔽酷安酷品
+^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\?(url=\/page\?url%3DV11_FIND_GOODS|url=V11_FIND_GOODS|title=%E9%85%B7%E5%93%81|page=1)&(url=\/page\?url%3DV11_FIND_GOODS|url=V11_FIND_GOODS|title=%E9%85%B7%E5%93%81|page=1)&(url=\/page\?url%3DV11_FIND_GOODS|url=V11_FIND_GOODS|title=%E9%85%B7%E5%93%81|page=1) url reject-dict
+# 屏蔽酷安好物
+^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\?(|url=V11_FIND_GOOD_GOODS_HOME|title=%E5%A5%BD%E7%89%A9|firstItem=23361|page=1|lastItem=51218567)&(|url=V11_FIND_GOOD_GOODS_HOME|title=%E5%A5%BD%E7%89%A9|firstItem=23361|page=1|lastItem=51218567)&(|url=V11_FIND_GOOD_GOODS_HOME|title=%E5%A5%BD%E7%89%A9|firstItem=23361|page=1|lastItem=51218567)+.+(|url=V11_FIND_GOOD_GOODS_HOME|title=%E5%A5%BD%E7%89%A9|firstItem=23361|page=1|lastItem=51218567) url reject-dict
+# 屏蔽酷安商品详情
+^https:\/\/api\.coolapk\.com\/v6\/goods\/ url reject-dict
+^http:\/\/image\.coolapk\.com\/(goods_cover|goods)\/ url reject-dict
+#=======================================#
+
+#=======================================#
+# 淘宝 02
+#=======================================#
+# 屏蔽部分链接跳转到淘宝
+https?:\/\/s\.click\.taobao\.com\/ url reject-dict
+#=======================================#
+
+#=======================================#
+# 京东 03
+#=======================================#
+# 屏蔽部分链接跳转到京东
+https?:\/\/union\.click\.jd\.com/jda? url reject-dict
+#=======================================#
+
+#=======================================#
+# 小红书 04
+#=======================================#
+# 屏蔽小红书商店
+^https:\/\/www\.xiaohongshu\.com\/api\/store url reject
+#=======================================#
+
+#=======================================#
+# 微博轻享版 05
+#=======================================#
+# 屏蔽推荐和关注中穿插的广告
+^https:\/\/bootrealtime\.uve\.weibo\.com\/v2\/ad\/ url reject-dict
+^https:\/\/api\.weibo\.cn\/2\/ad\/ url reject-dict
+#=======================================#

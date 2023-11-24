@@ -1,0 +1,12 @@
+/*======================================
+# 驾校一点通01
+# @color233 2022.9.9
+^https?:\/\/vipapi\.(jxedt|ksedt)\.com\/store\/checkRights url script-response-body https://raw.githubusercontent.com/xilemon/quanx/main/script/jxedt-checkrights.js
+ ======================================*/
+let color233 = JSON.parse($response.body);
+{
+    color233.result.beginTime = "2022-09-09";
+    color233.result.endTime = "2099-09-09";
+    color233.result.status = "2";
+}
+$done({ body: JSON.stringify(color233) });

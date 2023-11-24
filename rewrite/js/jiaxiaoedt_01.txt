@@ -1,0 +1,15 @@
+#=======================================#
+# 驾校一点通01
+# @color233 2022.9.9
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/jiaxiaoedt_01.txt
+#=======================================#
+
+hostname = vipapi.jxedt.com, vipapi.ksedt.com, images.pinduoduo.com
+
+# 驾校一点通解锁部分vip
+^https?:\/\/vipapi\.(jxedt|ksedt)\.com\/store\/checkRights url script-response-body https://raw.githubusercontent.com/xilemon/quanx/main/script/jxedt-checkrights.js
+^https:\/\/vipapi\.(jxedt|ksedt)\.com\/store\/batchCheckRights url script-response-body https://raw.githubusercontent.com/xilemon/quanx/main/script/jxedt-batchcheckrights.js
+
+# 屏蔽驾校一点通开屏广告
+^https:\/\/images\.pinduoduo\.com\/marketing_api url reject
+#=======================================#

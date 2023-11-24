@@ -1,0 +1,12 @@
+#=======================================#
+# 小红书 04
+# @color233 2023.11.11
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/ad/xiaohongshu_04.txt
+#=======================================#
+
+hostname = www.xiaohongshu.com
+
+# 屏蔽小红书商店
+^https:\/\/www\.xiaohongshu\.com\/api\/store url reject
+
+#=======================================#
