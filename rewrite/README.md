@@ -1,8 +1,11 @@
-# 1. 去广告重写
-## 1.1 说明
+# 重写
+
+## 1 说明
+
 * 仅用于测试
 
-## 1.2 目录
+## 2 去广告重写-目录
+
 |序号|名称|链接|
 |:----:|:----|:----:|
 |0|合集|[跳转](https://github.com/xilemon/quanx/blob/main/rewrite/ad/ad_rewrite_00.txt)|
@@ -13,11 +16,9 @@
 |5|微博轻享版|[跳转](https://github.com/xilemon/quanx/blob/main/rewrite/ad/weiboqxb_05.txt)|
 
 ---
-# 2. 功能性重写
-## 2.1 说明
-* 仅用于测试
 
-## 2.2 目录
+## 3 功能性重写-目录
+
 |序号|名称|链接|
 |:----:|:----|:----:|
 |0|合集|[跳转](https://github.com/xilemon/quanx/blob/main/rewrite/js/js_rewrite_00.txt)|
