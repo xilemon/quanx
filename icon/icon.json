@@ -1,6 +1,6 @@
 {
     "name": "lemon 4 self",
-    "description": "2个苹果144px的图标",
+    "description": "自用图标",
     "icons": [
         {
             "name": "apple1.png",
@@ -9,6 +9,10 @@
         {
             "name": "apple2.png",
             "url": "https://raw.githubusercontent.com/xilemon/quanx/main/icon/apple2.png"
+        },
+        {
+            "name": "giffgaff.png",
+            "url": "https://raw.githubusercontent.com/xilemon/quanx/main/icon/giffgaff.png"
         }
     ]
 }

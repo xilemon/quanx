@@ -6,7 +6,8 @@
 
 ## 2 分流-目录
 
-|序号|名称|链接|
-|:----:|:----|:----:|
-|0|分流|[跳转](https://github.com/xilemon/quanx/blob/main/rule/filter_00.txt)|
-|-| | |
+|#|名称|链接|raw|
+|:----:|:----|:----:|:----:|
+|0|屏蔽广告|[跳转](/rule/filter_ad_00.txt)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rule/filter_ad_00.txt)|
+|1|giffgaff|[跳转](/rule/giffgaff_01.txt)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rule/giffgaff_01.txt)|
+|-| | | |
