@@ -1,0 +1,18 @@
+#=======================================#
+# 自动加入testflight
+# @color233 2022.9.9
+# @author:lowking
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/testflight_05.txt
+#=======================================#
+# @author:chavyleung
+# chavyleung_boxjs_url
+# http://boxjs.com/#/sub/add/https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json
+#=======================================#
+
+
+#自动加入testflight
+^https:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/ru\/([^\/]+)(?!\/accept)$ url script-request-header https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/TF_appIds.js
+
+hostname = testflight.apple.com
+
+#=======================================#

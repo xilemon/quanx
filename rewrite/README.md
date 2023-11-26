@@ -23,4 +23,6 @@
 |0|合集|[跳转](/rewrite/js/js_rewrite_00.txt)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/js_rewrite_00.txt)|
 |1|驾校一点通|[跳转](/rewrite/js/jiaxiaoedt_01.txt)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/jiaxiaoedt_01.txt)|
 |2|搜索引擎重定向|[跳转](/rewrite/js/Q_Search_02.txt)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/Q_Search_02.txt)|
+|3|联通获取cookie|[跳转](/rewrite/js/cookie_liantong_03.txt)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/cookie_liantong_03.txt)|
+|4|阿里云盘获取cookie|[跳转](/rewrite/js/cookie_aliyunpan_04.txt)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/cookie_aliyunpan_04.txt)|
 |-| | |

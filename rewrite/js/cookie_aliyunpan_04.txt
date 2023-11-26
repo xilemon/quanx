@@ -1,0 +1,23 @@
+#=======================================#
+# 阿里云盘cookie 04
+# @color233 2022.9.9
+# @author:lowking
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/cookie_aliyunpan_04.txt
+#=======================================#
+# 配合自动签到任务
+# 1、手动添加
+# script_url:https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+# icon_url:https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png
+#=======================================#
+# 2、引用
+# quanx:[task_local]
+# 每天10:30执行一次阿里云盘签到
+# 30 10 * * * https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, tag=阿里云盘签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png, enabled=true
+#=======================================#
+
+#阿里云盘获取cookie
+https:\/\/auth.(aliyundrive|alipan).com\/v2\/account\/token url script-response-body https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+
+hostname = auth.aliyundrive.com, auth.alipan.com
+
+#=======================================#
