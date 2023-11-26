@@ -8,6 +8,6 @@
 
 |#|名称|链接|raw|
 |:----:|:----|:----:|:----:|
-|0|两个apple|[跳转](/icon/icon.json)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/icon/icon.json)|
+|0|自用图标|[跳转](/icon/icon.json)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/icon/icon.json)|
 |1|引用图标合集|[跳转](/icon/icons.json)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/icon/icons.json)|
 |-| | |

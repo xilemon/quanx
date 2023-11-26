@@ -4,8 +4,6 @@
 # https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/ad/kuan_01.txt
 #=======================================#
 
-hostname = api.coolapk.com, image.coolapk.com
-
 # 屏蔽酷安酷品
 ^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\?(url=\/page\?url%3DV11_FIND_GOODS|url=V11_FIND_GOODS|title=%E9%85%B7%E5%93%81|page=1)&(url=\/page\?url%3DV11_FIND_GOODS|url=V11_FIND_GOODS|title=%E9%85%B7%E5%93%81|page=1)&(url=\/page\?url%3DV11_FIND_GOODS|url=V11_FIND_GOODS|title=%E9%85%B7%E5%93%81|page=1) url reject-dict
 
@@ -16,5 +14,9 @@ hostname = api.coolapk.com, image.coolapk.com
 ^https:\/\/api\.coolapk\.com\/v6\/goods\/ url reject-dict
 
 ^http:\/\/image\.coolapk\.com\/(goods_cover|goods)\/ url reject-dict
+
+
+hostname = api.coolapk.com, image.coolapk.com
+
 
 #=======================================#

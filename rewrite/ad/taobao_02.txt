@@ -4,9 +4,11 @@
 # https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/ad/taobao_02.txt
 #=======================================#
 
-hostname = s.click.taobao.com
-
 # 屏蔽部分链接跳转到淘宝
 https?:\/\/s\.click\.taobao\.com\/ url reject-dict
+
+
+hostname = s.click.taobao.com
+
 
 #=======================================#

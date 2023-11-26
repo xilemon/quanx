@@ -4,10 +4,13 @@
 # https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/ad/weiboqxb_05.txt
 #=======================================#
 
-hostname = bootrealtime.uve.weibo.com, api.weibo.cn
-
 # 屏蔽推荐和关注中穿插的广告
 ^https:\/\/bootrealtime\.uve\.weibo\.com\/v2\/ad\/ url reject-dict
 ^https:\/\/api\.weibo\.cn\/2\/ad\/ url reject-dict
+
+
+hostname = bootrealtime.uve.weibo.com, api.weibo.cn
+
+
 
 #=======================================#

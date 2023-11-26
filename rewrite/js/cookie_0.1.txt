@@ -17,12 +17,12 @@
 #=======================================#
 # 联通小组件获取cookie
 ^https:\/\/m\.client\.10010\.com\/serviceimportantbusiness\/smart\/smartwisdomCommonNew  url script-request-header https://raw.githubusercontent.com/dompling/Script/master/10010/index.js
-
-
 #=======================================#
+
+
 #=======================================#
 # 阿里云盘cookie 04
-# @color233 2022.9.9
+#=======================================#
 # @author:lowking
 # https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/cookie_aliyunpan_04.txt
 #=======================================#

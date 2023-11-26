@@ -30,6 +30,8 @@ https?:\/\/s\.click\.taobao\.com\/ url reject-dict
 #=======================================#
 # 屏蔽部分链接跳转到京东
 https?:\/\/union\.click\.jd\.com/jda? url reject-dict
+# 屏蔽京东逛逛
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(getBubbleFrequencyRuleInfo|getRecommendNewFeedsList|discFollowEnterMainPage|userTalentInfo|disc_recommend_koc_pop|uploadPageView|video_authorLiveInfo|discoveryPageView|video_videoDetail|videoHbGoldCoin_done) url reject-dict
 #=======================================#
 
 #=======================================#
@@ -48,5 +50,5 @@ https?:\/\/union\.click\.jd\.com/jda? url reject-dict
 #=======================================#
 
 #=======================================#
-hostname = api.coolapk.com, image.coolapk.com, s.click.taobao.com, union.click.jd.com, www.xiaohongshu.com, bootrealtime.uve.weibo.com, api.weibo.cn
+hostname = api.coolapk.com, image.coolapk.com, s.click.taobao.com, union.click.jd.com, api.m.jd.com, www.xiaohongshu.com, bootrealtime.uve.weibo.com, api.weibo.cn
 #=======================================#

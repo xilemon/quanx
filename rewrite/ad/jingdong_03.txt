@@ -4,9 +4,15 @@
 # https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/ad/jingdong_03.txt
 #=======================================#
 
-hostname = union.click.jd.com
 
 # 屏蔽部分链接跳转到京东
 https?:\/\/union\.click\.jd\.com/jda? url reject-dict
+
+# 屏蔽京东逛逛
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(getBubbleFrequencyRuleInfo|getRecommendNewFeedsList|discFollowEnterMainPage|userTalentInfo|disc_recommend_koc_pop|uploadPageView|video_authorLiveInfo|discoveryPageView|video_videoDetail|videoHbGoldCoin_done) url reject-dict
+
+
+hostname = union.click.jd.com, api.m.jd.com
+
 
 #=======================================#
