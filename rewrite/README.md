@@ -18,8 +18,9 @@
 
 ## 3 功能性重写-目录
 
-|序号|名称|链接|
-|:----:|:----|:----:|
-|0|合集|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/js_rewrite_00.txt)|
-|1|驾校一点通|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/jiaxiaoedt_01.txt)|
+|序号|名称|链接|raw|
+|:----:|:----|:----:|:----:|
+|0|合集|[跳转](/rewrite/js/js_rewrite_00.txt)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/js_rewrite_00.txt)|
+|1|驾校一点通|[跳转](/rewrite/js/jiaxiaoedt_01.txt)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/jiaxiaoedt_01.txt)|
+|2|搜索引擎重定向|[跳转](/rewrite/js/Q_Search_02.txt)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/Q_Search_02.txt)|
 |-| | |
