@@ -1,0 +1,61 @@
+#=======================================#
+# cookie、临时性，获取完关闭 0.1
+# 3、联通cookie，4、阿里云盘cookie、5、自动加入testflight
+# @color233 2022.9.9
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/js_rewrite_00.txt
+#=======================================#
+
+
+#=======================================#
+# 联通小组件获取cookie 03
+#=======================================#
+# @author：脑瓜、2ya
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/cookie_liantong_03.txt
+#=======================================#
+#dompling_boxjs_url:
+# http://boxjs.com/#/sub/add/https://raw.githubusercontent.com/dompling/Script/master/dompling.boxjs.json
+#=======================================#
+# 联通小组件获取cookie
+^https:\/\/m\.client\.10010\.com\/serviceimportantbusiness\/smart\/smartwisdomCommonNew  url script-request-header https://raw.githubusercontent.com/dompling/Script/master/10010/index.js
+
+
+#=======================================#
+#=======================================#
+# 阿里云盘cookie 04
+# @color233 2022.9.9
+# @author:lowking
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/cookie_aliyunpan_04.txt
+#=======================================#
+# 配合自动签到任务
+# 1、手动添加
+# script_url:https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+# icon_url:https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png
+#=======================================#
+# 2、引用
+# quanx:[task_local]
+# 每天10:30执行一次阿里云盘签到
+# 30 10 * * * https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, tag=阿里云盘签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png, enabled=true
+#=======================================#
+#阿里云盘获取cookie
+https:\/\/auth.(aliyundrive|alipan).com\/v2\/account\/token url script-response-body https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+#=======================================#
+
+
+#=======================================#
+# 自动加入testflight 05
+#=======================================#
+# @author:lowking
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/testflight_05.txt
+#=======================================#
+# @author:chavyleung
+# chavyleung_boxjs_url
+# http://boxjs.com/#/sub/add/https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json
+#=======================================#
+#自动加入testflight
+^https:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/ru\/([^\/]+)(?!\/accept)$ url script-request-header https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/TF_appIds.js
+#=======================================#
+
+
+#=======================================#
+hostname = act.10010.com, m.client.10010.com, auth.aliyundrive.com, auth.alipan.com, testflight.apple.com
+#=======================================#

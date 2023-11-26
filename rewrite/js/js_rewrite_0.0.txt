@@ -1,5 +1,27 @@
 #=======================================#
+# 合集 00
+# 1、驾校一点通，2、搜索引擎重定向
+# @color233 2022.9.9
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/js_rewrite_0.0.txt
+#=======================================#
+
+
+#=======================================#
+# 驾校一点通01
+#=======================================#
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/jiaxiaoedt_01.txt
+#=======================================#
+# 驾校一点通解锁部分vip
+^https?:\/\/vipapi\.(jxedt|ksedt)\.com\/store\/checkRights url script-response-body https://raw.githubusercontent.com/xilemon/quanx/main/script/jxedt-checkrights.js
+^https:\/\/vipapi\.(jxedt|ksedt)\.com\/store\/batchCheckRights url script-response-body https://raw.githubusercontent.com/xilemon/quanx/main/script/jxedt-batchcheckrights.js
+# 屏蔽驾校一点通开屏广告
+^https:\/\/images\.pinduoduo\.com\/marketing_api url reject
+#=======================================#
+
+
+#=======================================#
 # Q_Search 02
+#=======================================#
 #引用自公众号墨鱼手记https://t.me/ddgksf2021
 #自用修改：无指令为必应
 ##############################################
@@ -12,14 +34,11 @@
 # - 如需引用请注明出处-> https://t.me/ddgksf2021 谢谢合作！
 # - https://github.com/ddgksf2013/Rewrite/raw/master/Html/Q-Search.conf
 ##############################################
-
 #************************************#
 # - Safari 内输入以下格式命令快速指定搜索引擎
 # - 【命令+空格+关键词】或者【关键词+空格+命令】
 # - 注：请先进入设置更改 Safari 默认搜索为 DuckDuckGO
-
 #************************************#
-
 # 翻译
 # yd  xxx (有道词典)
 ^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+ url 302 http://dict.youdao.com/search?q=$1
@@ -33,8 +52,6 @@
 # trj xxx (Google 译至日)
 ^https:\/\/duckduckgo.com\/\?q=trj\+([^&]+).+ url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+trj.+ url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
-
-
 
 # 社区
 # tt    xxx (头条)
@@ -86,8 +103,6 @@
 ^https:\/\/duckduckgo.com\/\?q=rd\+([^&]+).+ url 302 https://www.reddit.com/search?q=$1
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+rd.+ url 302 https://www.reddit.com/search?q=$1
 
-
-
 # 购物
 # zdm xxx (什么值得买)
 ^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+ url 302 https://search.m.smzdm.com/?v=b&s=$1
@@ -98,7 +113,6 @@
 # tb  xxx (淘宝)
 ^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ url 302 https://s.m.taobao.com/h5?q=$1
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+tb.+ url 302 https://s.m.taobao.com/h5?q=$1
-
 
 # 视频
 # yt  xxx (YouTube)
@@ -123,7 +137,6 @@
 ^https:\/\/duckduckgo.com\/\?q=ys\+([^&]+).+ url 302 https://cupfox.app/search?key=$1
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+ys.+ url 302 https://cupfox.app/search?key=$1
 
-
 # 苹果商店切换
 #源链接爬虫于>>https://www.liangjianghu.com/searchads-appstore-switch
 #Created by ddgksf2013，使用方法：输入区号，搜索即可
@@ -143,7 +156,6 @@
 ^https:\/\/duckduckgo.com\/\?q=tr&.+ url 302 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc=
 # sg  (切换至新加坡区)
 ^https:\/\/duckduckgo.com\/\?q=sg&.+ url 302 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc=
-
 
 # 搜索
 # bd  xxx (百度搜索)
@@ -172,6 +184,9 @@
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gg.+ url 302 https://www.google.com/search?q=$1
 #     xxx （无指令默认为 必应）
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ url 302 https://www.bing.com/search?q=$1
+#=======================================#
 
 
-hostname = duckduckgo.com
+#=======================================#
+hostname = vipapi.jxedt.com, vipapi.ksedt.com, images.pinduoduo.com, duckduckgo.com
+#=======================================#
