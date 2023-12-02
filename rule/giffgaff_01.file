@@ -1,7 +1,7 @@
 #=======================================#
 # 部分giffgaff分流 01
 # @color233 2023.11.11
-# https://raw.githubusercontent.com/xilemon/quanx/main/rule/giffgaff_01.txt
+# https://raw.githubusercontent.com/xilemon/quanx/main/rule/giffgaff_01.file
 #=======================================#
 
 host-suffix,giffgaff.com,giffgaff

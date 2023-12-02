@@ -2,14 +2,14 @@
 # 合集 00
 # 1、驾校一点通，2、搜索引擎重定向
 # @color233 2022.9.9
-# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/js_rewrite_0.0.txt
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/js_rewrite_0.0.file
 #=======================================#
 
 
 #=======================================#
 # 驾校一点通01
 #=======================================#
-# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/jiaxiaoedt_01.txt
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/jiaxiaoedt_01.file
 #=======================================#
 # 驾校一点通解锁部分vip
 ^https?:\/\/vipapi\.(jxedt|ksedt)\.com\/store\/checkRights url script-response-body https://raw.githubusercontent.com/xilemon/quanx/main/script/jxedt-checkrights.js

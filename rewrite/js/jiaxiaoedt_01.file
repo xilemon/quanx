@@ -1,7 +1,7 @@
 #=======================================#
 # 驾校一点通01
 # @color233 2022.9.9
-# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/jiaxiaoedt_01.txt
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/jiaxiaoedt_01.file
 #=======================================#
 
 hostname = vipapi.jxedt.com, vipapi.ksedt.com, images.pinduoduo.com

@@ -5,7 +5,7 @@
 # https://raw.githubusercontent.com/xilemon/quanx/main/script/jxedt-checkrights.js
 
 # 重写引用：
-# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/jiaxiaoedt_01.txt
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/jiaxiaoedt_01.file
  ======================================*/
 let color233 = JSON.parse($response.body);
 {

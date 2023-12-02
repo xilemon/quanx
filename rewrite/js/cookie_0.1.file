@@ -2,7 +2,7 @@
 # cookie、临时性，获取完关闭 0.1
 # 3、联通cookie，4、阿里云盘cookie、5、自动加入testflight
 # @color233 2022.9.9
-# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/js_rewrite_00.txt
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/js_rewrite_00.file
 #=======================================#
 
 
@@ -10,7 +10,7 @@
 # 联通小组件获取cookie 03
 #=======================================#
 # @author：脑瓜、2ya
-# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/cookie_liantong_03.txt
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/cookie_liantong_03.file
 #=======================================#
 #dompling_boxjs_url:
 # http://boxjs.com/#/sub/add/https://raw.githubusercontent.com/dompling/Script/master/dompling.boxjs.json
@@ -24,7 +24,7 @@
 # 阿里云盘cookie 04
 #=======================================#
 # @author:lowking
-# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/cookie_aliyunpan_04.txt
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/cookie_aliyunpan_04.file
 #=======================================#
 # 配合自动签到任务
 # 1、手动添加
@@ -45,7 +45,7 @@ https:\/\/auth.(aliyundrive|alipan).com\/v2\/account\/token url script-response-
 # 自动加入testflight 05
 #=======================================#
 # @author:lowking
-# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/testflight_05.txt
+# https://raw.githubusercontent.com/xilemon/quanx/main/rewrite/js/testflight_05.file
 #=======================================#
 # @author:chavyleung
 # chavyleung_boxjs_url

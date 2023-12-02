@@ -8,6 +8,6 @@
 
 |#|名称|链接|raw|
 |:----:|:----|:----:|:----:|
-|0|屏蔽广告|[跳转](/rule/filter_ad_00.txt)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rule/filter_ad_00.txt)|
-|1|giffgaff|[跳转](/rule/giffgaff_01.txt)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rule/giffgaff_01.txt)|
+|0|屏蔽广告|[跳转](/rule/filter_ad_00.file)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rule/filter_ad_00.file)|
+|1|giffgaff|[跳转](/rule/giffgaff_01.file)|[跳转](https://raw.githubusercontent.com/xilemon/quanx/main/rule/giffgaff_01.file)|
 |-| | | |
